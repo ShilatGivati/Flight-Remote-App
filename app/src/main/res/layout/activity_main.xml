@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="#3B3F42" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/main_layout" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="200dp" android:id="@+id/inputIp" android:textAlignment="center" android:hint="IP" android:textColorHint="#646464" android:textColor="@color/white" android:layout_centerHorizontal="true" android:layout_margin="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="200dp" android:id="@+id/inputPort" android:textAlignment="center" android:hint="Port" android:textColorHint="#646464" android:textColor="@color/white" android:layout_centerHorizontal="true" android:layout_margin="10dp" android:layout_below="@id/inputIp"/>
+
+    <androidx.appcompat.widget.AppCompatButton android:background="@drawable/button_style" android:layout_height="wrap_content" android:layout_width="200dp" android:id="@+id/connectButton" android:textColor="@color/white" android:layout_centerHorizontal="true" android:layout_below="@+id/inputPort" android:text="Connect"/>
+
+    <com.example.flight_remote_app.view.VerticalScroll android:layout_height="450dp" android:layout_width="wrap_content" android:id="@+id/controller_throttle" android:max="100" android:min="0" android:thumbTint="#FF1494" android:progressTint="#FF1494" android:layout_marginStart="10dp" android:layout_marginBottom="40dp" android:layout_alignParentBottom="true"/>
+
+    <SeekBar android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/controller_rudder" android:max="100" android:min="0" android:thumbTint="#FF1494" android:progressTint="#FF1494" android:layout_marginStart="50dp" android:layout_marginBottom="15dp" android:layout_alignParentBottom="true" android:progressBackgroundTint="#FF1494" android:layout_marginEnd="50dp"/>
+
+
+    -<FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_below="@+id/connectButton" android:layout_marginStart="35dp" android:layout_marginBottom="15dp" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_above="@+id/controller_rudder">
+
+    <com.example.flight_remote_app.view.JoystickView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/joystick"/>
+
+</FrameLayout>
+
+</RelativeLayout>
