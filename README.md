@@ -3,7 +3,7 @@
 
 #### Contributes
 
-* Amit Sharabi
+* Amiti Sharabi
 * Shilat Givati
 
 This is an android application for controlling FlightGear flight simulator.
