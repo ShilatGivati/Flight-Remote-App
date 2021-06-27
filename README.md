@@ -10,9 +10,9 @@ This is an android application for controlling FlightGear flight simulator.
 
 1. [General](#General)
     - [Background](#background)
-    - [Project Description](https://github.com/ShilatGivati/Flight-Remote-App/edit/master/README.md#project-description)
-    - [Project Stucture](https://github.com/ShilatGivati/Flight-Remote-App/edit/master/README.md#project-stucture)
-    - [Features](https://github.com/ShilatGivati/Flight-Remote-App/edit/master/README.md#features)
+    - [Project Description](https://github.com/amit164/Flight-Remote-App/edit/master/README.md#project-description)
+    - [Project Stucture](https://github.com/amit164/Flight-Remote-App/edit/master/README.md#project-stucture)
+    - [Features](https://github.com/amit164/Flight-Remote-App/edit/master/README.md#features)
 2. [Dependencies](#dependencies)
 3. [Installation](#installation)
 
@@ -53,7 +53,7 @@ in [UML](https://github.com/amit164/Flight-Remote-App/blob/master/FlightRemoteAp
 * *Joystick:* Joystick: When moving the Joystick up and down the user can control the elevator value and by
   moving the joystick to the sides you can control the aileron value.
 
-For more features explanations, you can watch [this video](https://youtu.be/0LCHy6QXhxc).
+For more features explanations, you can watch [this video](https://youtu.be/wHmK7BNmMFk).
 
 ## Dependencies
 
@@ -75,5 +75,5 @@ For more features explanations, you can watch [this video](https://youtu.be/0LCH
 
 3. Clone the repository from **another** command line:  
     ```
-    $ git clone https://github.com/ShilatGivati/Flight-Inspection-App.git
+    $ git clone https://github.com/amit164/Flight-Inspection-App.git
     ```
